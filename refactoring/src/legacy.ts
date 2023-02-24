@@ -13,7 +13,7 @@ export function calc (movArray) {
 					// not sunday
 					if (mov.ds.getDay() !== 0) {
 						
-						result += mov.dist * 3.90;
+							
 					// sunday
 					} else {
 						result += mov.dist * 5;
